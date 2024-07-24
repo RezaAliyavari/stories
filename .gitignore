@@ -1,0 +1,40 @@
+# نادیده گرفتن فایل‌های باینری و پوشه‌های مربوط به محیط مجازی
+*.py[cod]
+__pycache__/
+*.so
+*.egg
+*.egg-info/
+.eggs/
+
+# نادیده گرفتن فایل‌های مرتبط با محیط مجازی
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# فایل‌های محلی
+*.log
+*.pot
+*.pyc
+*.pyo
+*.sqlite3
+*.migrations/
+
+# فایل‌های تولید شده توسط سیستم‌عامل
+.DS_Store
+Thumbs.db
+
+# فایل‌های مربوط به محیط توسعه‌ی IDE
+.idea/
+.vscode/
+*.swp
+*~
+
+# فایل‌های خروجی کامپایل و توزیع
+dist/
+build/
+*.egg-info/
+
+# فایل‌های تنظیمات محلی
+config/settings_local.py
