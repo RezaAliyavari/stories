@@ -18,7 +18,6 @@ venv.bak/
 *.pot
 *.pyc
 *.pyo
-*.sqlite3
 *.migrations/
 
 # فایل‌های تولید شده توسط سیستم‌عامل
@@ -38,3 +37,17 @@ build/
 
 # فایل‌های تنظیمات محلی
 config/settings_local.py
+
+# فایل‌های مربوط به پایگاه داده PostgreSQL
+*.pgdata
+pg_log/
+pg_xlog/
+pg_replslot/
+pg_snapshots/
+pg_stat_tmp/
+pg_subtrans/
+pg_tblspc/
+pg_twophase/
+pg_log/
+pg_xlog/
+pg_wal/
